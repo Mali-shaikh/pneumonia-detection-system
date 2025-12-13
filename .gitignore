@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Dataset (too large for git)
+dataset/
+*.zip
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Kaggle credentials
+kaggle.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints during training
+*.h5.tmp
+checkpoint/
